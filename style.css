@@ -26,21 +26,22 @@ header {
     width:100% ;
     background-color: #5b5959;
     color: #fff;
-    padding: 0px 0;
+    /* padding: 0px 0; */
     text-align: center;
     position: fixed;
     font-family:'Courier New', Courier, monospace ;
 }
-header .container{
+/* header .container{
     height: 110px;
-}
+} */
 
 header h1 {
-    width:50%;
-    height: 5rem;
+    width:70%;
+    height: .1rem;
     font-size: 4rem;
     transition: transform 0.3s ease;
-    margin-top: -5px;
+    /* margin-top: -5px; */
+    display: flex;
 }
 
 header h1:hover {
@@ -48,22 +49,26 @@ header h1:hover {
 }
 
 header .tagline {
-    width: 50%;
+    /* width: 50%; */
     font-size: 1.3rem;
     color: #bbb;
+   display: flex;
+   margin-top: 70px;
 }
 nav ul {
     display: flex;
-    justify-content: space-between;
-    width: 500px;
+    justify-content: flex-end;
+    /* width: 500px; */
     font-size: 1.2rem;
-    margin-top: -50px;
+    margin-top: -20px;
     margin-left: 610px;
     list-style-type: none;
     font-weight: bold;
 }
 nav li{
-    margin-left: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: end;
 }
 a {
     text-decoration: none;
@@ -81,17 +86,19 @@ a img{
 .sociallinks {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: -115px;
-    width: 30%;
-    margin-left: 800px;
+    justify-content: flex-end;
+    margin-top:-80px;
+   position: absolute;
+   right:130px;
+    width: 50%;
+    margin-left: 100px;
 }
 
 .sociallinks a {
-    width: 30px;
+    /* width: 30px; */
     height: 5px;
     font-size: 1rem;
-    margin: 3rem 1.5rem 1rem 0;
+    margin: 1rem 1.5rem 1rem 0;
     transition: 0.3s ease;
 }
 
