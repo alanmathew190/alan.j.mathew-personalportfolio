@@ -18,12 +18,12 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+    height: fit-content;
     
 }
 
 /* Header Section */
 header {
-
     width:100% ;
     background-color: #5b5959;
     color: #fff;
@@ -148,10 +148,9 @@ section#about p {
     font-size: 24px;
     font-weight: bold;
     color: rgb(189, 181, 197);
-    padding: 20px 20px;
-    padding-top: 70px;
+    padding: 30px 30px;
     margin-left: 30px;
-    height: 400px;
+    height: fit-content;
     transition: transform 0.3s ease;
 }
 
@@ -331,7 +330,7 @@ footer p {
   /* Mobile Devices (600px and below) */
 @media screen and (max-width: 600px) {
     header h1 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         width: 100%;
        
     }
@@ -462,4 +461,24 @@ margin-bottom: 10px;
     footer p {
         font-size: 0.7rem;
     }
+}
+@media screen and (min-width: 600px) and (max-width:1024px){
+    header h1{
+font-size: 2.6rem;
+    }
+nav ul{
+    font-size: 15px;
+    margin-right:-25px;
+}
+.tagline{
+    margin-bottom:-10px;
+}
+.sociallinks{
+    margin-left: 50px;
+    margin-top :-40px;
+}.sociallinks img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
 }
