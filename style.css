@@ -82,11 +82,10 @@ a img{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top:-80px;
-   position: absolute;
-   right:130px;
-    width: 50%;
-    margin-left: 100px;
+    margin-top:-60px;
+   height:65px;
+    width: 100%;
+    margin-left: 25px;
 }
 
 .sociallinks a {
@@ -334,7 +333,6 @@ footer p {
     header h1 {
         font-size: 2.5rem;
         width: 100%;
-        margin-left: 40px;
        
     }
     header{
@@ -343,14 +341,14 @@ footer p {
     }
     p.tagline {
         font-size: 1rem;
-      margin-left:20px;
+      margin-left:-15px;
        margin-top:50px;
      
     }
     
     nav ul {
         flex-direction:row;
-        margin-top: 8px;
+        margin-top: -30px;
         justify-content: center;
         margin-left: -10px;
         font-weight: bold;
@@ -366,7 +364,7 @@ footer p {
     .sociallinks {
         flex-direction:row;
         margin-top:-28px;
-        margin-right: -80px;
+        margin-left: 35px;
 
        
     }
