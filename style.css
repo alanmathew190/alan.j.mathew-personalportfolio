@@ -216,18 +216,24 @@ section#about p {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
+    
 }
 
 .project-card {
     background-color: #f4f4f4;
     border: 1px solid #ccc;
     padding: 20px;
+    width:90vh;
     transition: transform 0.3s ease;
-    text-align: center;
+     margin: auto;
+    /* text-align: center; */
+    height: fit-content;
 }
-
+.project-card a{
+    color: blue;
+}
 .project-card:hover {
     transform: scale(1.05);
 }
