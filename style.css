@@ -83,7 +83,11 @@ a img{
     width: 30px;
     height: 30px;
 }
+a.certificates{
+ width: fit-content;
+ margin:auto ;
 
+}
 .sociallinks {
     display: flex;
     flex-direction: row;
